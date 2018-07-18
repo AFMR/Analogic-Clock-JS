@@ -1,0 +1,45 @@
+
+   
+   
+   .clock-main{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vw;
+        width: 35vw;
+        height: 35vw;
+        background: none;
+        -moz-border-radius: 35vw;
+        -webkit-border-radius: 35vw;
+        border: 1vw solid green;
+        position: relative;
+        background-image: url("https://images.pexels.com/photos/312839/pexels-photo-312839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+   }  
+
+   .clock-arms {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    width: 48%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+
+   }
+
+   #hours{
+       height: 1vw;
+       transition: all 0.05s;
+   }
+
+   #minutes{
+       height: .7vw;
+       transition: all 0.05s;
+       
+   }
+
+   #seconds{
+       height: .4vw;
+       transition-timing-function: cubic-bezier(0.1, 2.5, 0.56, 1);
+ 
+   } 
